@@ -1,8 +1,8 @@
 <?php
 //use constant values
 define("DB_SERVER", "localhost");
-define("DB_USER", "c_user");
-define("DB_PASS", "c_password");
+define("DB_USER", "root");
+define("DB_PASS", "");
 define("DB_Name", "classicmodels");
 
 //1. create a database connection

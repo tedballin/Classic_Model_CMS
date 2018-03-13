@@ -3,7 +3,7 @@ require_once("../includes/session.php");
 //include functions
 require_once("../includes/functions.php");
 //switch to https
-// require_SSL();
+require_SSL();
 include("../includes/layouts/header.php");
 
 

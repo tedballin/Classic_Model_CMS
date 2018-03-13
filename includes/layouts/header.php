@@ -2,21 +2,18 @@
 require_once("../includes/session.php");
 //include functions
 require_once("../includes/functions.php");
-	if (!isset($layout_context)) {
-		$layout_context = "guest";
-	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A04: Classicmodels <?php if ($layout_context == "user") { echo "User"; } ?></title>
+    <title>A04: Classicmodels</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 	<body>
     <div id="header">
-      <h1>Classic Models <?php if ($layout_context == "user") { echo "User"; } ?></h1>
+      <h1>Classic Models</h1>
       <nav>
         <ul>
          <li><a href="showmodels.php">All Models</a></li>
